@@ -1,0 +1,38 @@
+
+header {
+    background: #FF4500;
+   
+
+    .logo {
+        color:#FFFF33;
+        font-weight: bold;
+        fony-type:Padaloma;
+    }
+
+    nav {
+        
+        justify-self: right;
+    
+        ul {
+            list-style-type: none;
+            margin: 0; padding: 0;
+
+            li {
+                float: left;
+                
+
+                a {
+                    padding: 1.5em;
+                    text-transform: uppercase;
+                    font-size: .8em;
+                    color:#FFFF33;
+                    
+
+                    &:hover {
+                        background: #FFA500;
+                    }
+                }
+            }
+        }
+    }
+}
